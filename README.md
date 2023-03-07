@@ -29,6 +29,12 @@ docker-compose build
 docker-compose up -d
 docker run -p 8001:8000 [*название образа - можно посмотреть с помощью команды docker images]
 ```
+Пример вызова команды docker images. 
+```
+File_server_test_app docker images       
+REPOSITORY                 TAG       IMAGE ID       CREATED       SIZE
+file_server_test_app-web   latest    5e2f9f7ba2e1   9 hours ago   80.1MB
+```
 
 ## CLI - Приложения 
 После успешной сборки необходимо запустить **client.py**. \
