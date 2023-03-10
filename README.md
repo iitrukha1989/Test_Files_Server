@@ -46,6 +46,32 @@ file_server_test_app-web   latest    5e2f9f7ba2e1   9 hours ago   80.1MB
 В файле **test_cli.py** реализовано 14 тестовых функций по всем возможным командам client_v2 [GET, PUT, POST, DELETE], с использованием и без использования дополнительных опций и параметров. \
 Подробно с опциями и параметрами можно ознакомиться в следующем разделе. 
 
+Ожидаемый результаты запуска тестов:
+```
+======================== test session starts =========================
+platform darwin -- Python 3.10.6, pytest-7.2.0, pluggy-1.0.0 -- /Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
+cachedir: .pytest_cache
+rootdir: /Users/ilya_truhanovich/Desktop/s21_main/File_server_test_app
+plugins: anyio-3.6.2
+collected 14 items                                                   
+
+test_cli.py::test_get_1 PASSED                                 [  7%]
+test_cli.py::test_get_2 PASSED                                 [ 14%]
+test_cli.py::test_put_1 PASSED                                 [ 21%]
+test_cli.py::test_put_2 PASSED                                 [ 28%]
+test_cli.py::test_get_3 PASSED                                 [ 35%]
+test_cli.py::test_get_4 PASSED                                 [ 42%]
+test_cli.py::test_get_5 PASSED                                 [ 50%]
+test_cli.py::test_get_6 PASSED                                 [ 57%]
+test_cli.py::test_post_1 PASSED                                [ 64%]
+test_cli.py::test_post_2 PASSED                                [ 71%]
+test_cli.py::test_delete_1 PASSED                              [ 78%]
+test_cli.py::test_put_3 PASSED                                 [ 85%]
+test_cli.py::test_delete_2 PASSED                              [ 92%]
+test_cli.py::test_get_7 PASSED                                 [100%]
+
+========================= 14 passed in 0.17s =========================
+```
 
 ## CLI - Приложения:
 ### 1. client_v2. 
