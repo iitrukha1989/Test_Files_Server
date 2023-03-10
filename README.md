@@ -51,7 +51,7 @@ file_server_test_app-web   latest    5e2f9f7ba2e1   9 hours ago   80.1MB
 ======================== test session starts =========================
 platform darwin -- Python 3.10.6, pytest-7.2.0, pluggy-1.0.0 -- /Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
 cachedir: .pytest_cache
-rootdir: /Users/ilya_truhanovich/Desktop/s21_main/File_server_test_app
+rootdir: /fake_path/File_server_test_app
 plugins: anyio-3.6.2
 collected 14 items                                                   
 
